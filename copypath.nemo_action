@@ -1,5 +1,5 @@
 [Nemo Action]
-Name=Copy Path
+Name=Copy File Location
 Comment=Copy the full path of the selected item to the clipboard
 Exec=sh -c "echo -n %F | xclip -selection clipboard"
 Selection=s
